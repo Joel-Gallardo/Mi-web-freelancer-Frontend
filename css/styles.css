@@ -13,7 +13,7 @@
 html {
     font-size: 62.5%; /* establece el tamaño del texto para que 1rem = 10px. */
     box-sizing: border-box; /* solucion al box sizing*/
-    scroll-snap-type: y mandatory;
+    /*scroll-snap-type: y mandatory;*/
 }
 *, *:before, *:after {      /* solucion al box sizing*/
     box-sizing: inherit;    /* solucion al box sizing*/
@@ -150,13 +150,15 @@ h1, h2, h3 {
     align-items:flex-end;
 }
 
-/* scroll-snap*/
+/* scroll-snap
 .servicios,
 .navegacion-principal,
 .formulario {
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
+*/
+
 /* Servicios */
 @media (min-width: 768px) {
     .servicios {
